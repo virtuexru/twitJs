@@ -16,7 +16,7 @@ var T = new Twit({
  * track is for search API (hashtags, raw search, full text, etc)
  * follow is for @users (tweets created, retweets, replies) [note: will NOT contain mentions]
  */
-var stream = T.stream('statuses/filter', { track: 'bitcoin,dogecoin,litecoin', stall_warnings: true });
+var stream = T.stream('statuses/filter', { track: 'puppies', stall_warnings: true });
 var counter = 0;
 
 if (stream) {
